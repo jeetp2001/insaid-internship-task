@@ -28,3 +28,14 @@
 
 6. Demonstrate the hosted website.\
 -> The hosted website will be available on http://jeetpatel.me/. 
+ ![Index page](indexpage.png)\
+ ![Add Student](addstudent.png)
+ 
+7. What are the key factors to keep in mind during the process?\
+-> First is choose the correct EC2 instance type as per requirement. For ex. if you choose larger instance type for a small use-case then it will charge you more.\
+-> Make sure you configure apache server such that it must have an extension of programming language which you are using.\
+-> Configure your security group properly. It must have an inbound rule for running your website on apache server otherwise your website will not be visible.\
+-> For AWS RDS, make sure you configure your DB instance properly to avoid extra charges and note down the master username and password because it won't be visible again.
+
+8. Clean up the project environment and avoid future costs.\
+-> After completing the assignment/project make sure that you delete all the instances like ec2 instance, rds instance, etc. to avoid further charges.
